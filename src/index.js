@@ -7,9 +7,16 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App titulo='App supimpa!'/>
   </React.StrictMode>
 );
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App titulo='App supimpa!' />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
